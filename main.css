@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 58px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 28px;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+}
+
+.header {
+  background: url("./assets/header-bg.jpg") no-repeat center top / cover;
+  padding-top: 57px;
+  padding-bottom: 322px;
+  color: #fff;
+}
+
+.container {
+  width: 1389px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+}
+
+.logo {
+  margin-right: 69px;
+}
+
+.menu li {
+  margin-right: 40px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+header a {
+  color: rgb(255, 255, 255);
+}
+
+.tel {
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: auto;
+  letter-spacing: 0.1em;
+}
+
+.offer {
+  margin-top: 216px;
+  width: 613px;
+}
+
+.offer p {
+  margin: 0;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.offer h1 {
+  font-size: 100px;
+  line-height: 151px;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 15px 0;
+  border: 1px solid #fff;
+  width: 286px;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.about {
+  margin-top: 112px;
+  padding-right: 110px;
+}
+.description {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+}
+
+.description-block-left,
+.description-block-right {
+  width: 564px;
+}
+
+.description p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.62em;
+}
+
+.gallery {
+  margin-top: 84px;
+}
+
+.gallery img {
+  margin-right: 29px;
+  transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+.footer {
+  margin: auto;
+  margin-top: 124px;
+}
+
+.footer-text p {
+  font-family: Open Sans;
+  font-size: 15px;
+  line-height: 20px;
+  margin-right: 67px;
+}
+
+.footer-text {
+  display: flex;
+}
